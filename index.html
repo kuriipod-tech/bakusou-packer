@@ -1123,5 +1123,6 @@ function loop(now){
 requestAnimationFrame(loop);
 }
 </script>
+<style>html,body{overscroll-behavior:none}body{position:fixed;inset:0;width:100%}</style><script>document.addEventListener('touchmove',function(e){if(e.target.closest&&e.target.closest('.panel,.rk,.fuda,.sheet-body,#rankModal'))return;e.preventDefault();},{passive:false});document.addEventListener('gesturestart',function(e){e.preventDefault();});</script>
 </body>
 </html>
